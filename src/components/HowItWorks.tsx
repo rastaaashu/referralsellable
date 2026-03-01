@@ -3,7 +3,7 @@
 import AnimatedSection from './AnimatedSection';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { MAIN_REF_LINK } from '@/lib/config';
+import { useRefLink } from '@/lib/RefLinkContext';
 
 const steps = [
   {
@@ -51,6 +51,7 @@ const steps = [
 ];
 
 function StepCard({ step, index }: { step: (typeof steps)[0]; index: number }) {
+  const MAIN_REF_LINK = useRefLink();
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
@@ -108,6 +109,7 @@ function StepCard({ step, index }: { step: (typeof steps)[0]; index: number }) {
 }
 
 export default function HowItWorks() {
+  const MAIN_REF_LINK = useRefLink();
   return (
     <section id="steps" className="relative py-20 sm:py-32">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">

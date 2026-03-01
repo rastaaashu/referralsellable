@@ -1,5 +1,6 @@
 'use client';
 
+import { RefLinkProvider } from '@/lib/RefLinkContext';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import HeroVideo from '@/components/HeroVideo';
@@ -14,6 +15,7 @@ import SupportWidget from '@/components/SupportWidget';
 
 export default function Home() {
   return (
+    <RefLinkProvider>
     <main>
       <Navbar />
       <Hero />
@@ -34,5 +36,6 @@ export default function Home() {
       <Footer />
       <SupportWidget />
     </main>
+    </RefLinkProvider>
   );
 }

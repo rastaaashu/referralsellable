@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { MAIN_REF_LINK } from '@/lib/config';
+import { useRefLink } from '@/lib/RefLinkContext';
 
 const NAV_ITEMS = [
   { label: 'Performance', href: '#performance' },
@@ -13,6 +13,7 @@ const NAV_ITEMS = [
 ];
 
 export default function Navbar() {
+  const MAIN_REF_LINK = useRefLink();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 

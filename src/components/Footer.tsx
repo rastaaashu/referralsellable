@@ -1,6 +1,7 @@
 'use client';
 
-import { MAIN_REF_LINK, SUPPORT_LINKS, EXTERNAL_LINKS } from '@/lib/config';
+import { SUPPORT_LINKS, EXTERNAL_LINKS } from '@/lib/config';
+import { useRefLink } from '@/lib/RefLinkContext';
 
 const stats = [
   { value: '20–40%', label: 'Target Monthly Returns', icon: '💰' },
@@ -10,6 +11,7 @@ const stats = [
 ];
 
 export default function Footer() {
+  const MAIN_REF_LINK = useRefLink();
   return (
     <footer className="relative border-t border-white/5 py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">

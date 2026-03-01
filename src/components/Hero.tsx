@@ -2,9 +2,10 @@
 
 import { motion } from 'framer-motion';
 import ParticlesBg from './ParticlesBg';
-import { MAIN_REF_LINK } from '@/lib/config';
+import { useRefLink } from '@/lib/RefLinkContext';
 
 export default function Hero() {
+  const MAIN_REF_LINK = useRefLink();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Particles */}

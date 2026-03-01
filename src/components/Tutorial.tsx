@@ -3,7 +3,7 @@
 import AnimatedSection from './AnimatedSection';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { MAIN_REF_LINK } from '@/lib/config';
+import { useRefLink } from '@/lib/RefLinkContext';
 
 const tutorialSteps = [
   {
@@ -55,6 +55,7 @@ const tutorialSteps = [
 ];
 
 function TutorialStep({ step, index }: { step: (typeof tutorialSteps)[number]; index: number }) {
+  const MAIN_REF_LINK = useRefLink();
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.15 });
 
   return (
@@ -140,6 +141,7 @@ function TutorialStep({ step, index }: { step: (typeof tutorialSteps)[number]; i
 }
 
 export default function Tutorial() {
+  const MAIN_REF_LINK = useRefLink();
   return (
     <section id="tutorial" className="relative py-20 sm:py-32">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">

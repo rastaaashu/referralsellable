@@ -3,9 +3,17 @@
 // After editing, rebuild & redeploy your site.
 // ============================================================
 
-// ── Main Referral / Registration Link ───────────────────────
+// ── Default Referral / Registration Link ─────────────────────
+// Used when no ?u= parameter is present in the URL
 export const MAIN_REF_LINK =
   'https://limitless.ibportal.io/auth/register?e=xRLIEp2OQGqiLU3rMprCFk5N+qq2aPHB8a3oih8v0K8=&a=1';
+
+// ── Promoter Directory ──────────────────────────────────────
+// Add new promoters here: username → their referral link
+// Visitors go to yourdomain.com/?u=username to get their link
+export const PROMOTERS: Record<string, string> = {
+  // example: 'john': 'https://limitless.ibportal.io/auth/register?e=JOHNS_CODE&a=1',
+};
 
 // ── Support / Community Links ───────────────────────────────
 export const SUPPORT_LINKS = {

@@ -1,9 +1,10 @@
 'use client';
 
 import AnimatedSection from './AnimatedSection';
-import { MAIN_REF_LINK } from '@/lib/config';
+import { useRefLink } from '@/lib/RefLinkContext';
 
 export default function FinalCTA() {
+  const MAIN_REF_LINK = useRefLink();
   return (
     <section className="relative py-20 sm:py-32 overflow-hidden">
       {/* Background glow */}
