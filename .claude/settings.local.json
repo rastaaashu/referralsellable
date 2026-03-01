@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(rm:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell:*)",
+      "Bash(python3:*)",
+      "Bash(gh repo:*)",
+      "Bash(where gh:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}

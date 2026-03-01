@@ -1,0 +1,106 @@
+<speak>
+  <prosody rate="medium" pitch="+5%">
+    Hey, what if I told you there's an AI that trades crypto for you <break time="300ms"/> automatically <break time="300ms"/> and targets 20 to 40 percent monthly returns?
+  </prosody>
+  <break time="400ms"/>
+  <prosody rate="medium">
+    No leverage. No fees. Daily payouts.
+  </prosody>
+  <break time="500ms"/>
+  <prosody rate="medium" pitch="+3%">
+    Sounds too good to be true? Let me show you exactly how it works.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <prosody rate="medium">
+    This is Bit1 Exchange, powered by EndoTech AI <break time="200ms"/> an artificial intelligence copy trading system with over 15 years of proven track record <break time="200ms"/> and an 81 percent win rate in volatile markets.
+  </prosody>
+  <break time="400ms"/>
+  <prosody rate="medium">
+    Doctor Anna presented this system live to over 4,000 investors, <break time="200ms"/> showing 1,000 percent plus annual potential <break time="300ms"/> without leverage or compounding.
+  </prosody>
+  <break time="300ms"/>
+  <prosody rate="medium" pitch="+3%">
+    And now, you can copy these exact AI strategies automatically.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <prosody rate="medium" pitch="+5%">
+    Getting started takes less than 2 minutes. Here's how.
+  </prosody>
+
+  <break time="500ms"/>
+
+  <prosody rate="medium">
+    Step 1. <break time="200ms"/> Click the exclusive invitation link to register. Enter your name, email, and create a password. No KYC required <break time="200ms"/> it takes 30 seconds.
+  </prosody>
+
+  <break time="400ms"/>
+
+  <prosody rate="medium">
+    Step 2. <break time="200ms"/> Check your email and verify your account. Then log in to your Limitless dashboard.
+  </prosody>
+
+  <break time="400ms"/>
+
+  <prosody rate="medium">
+    Step 3. <break time="200ms"/> Navigate to the Bit1 Exchange using the same credentials. Deposit your crypto. <break time="200ms"/> Your funds stay in YOUR account at all times. This is completely non-custodial.
+  </prosody>
+
+  <break time="400ms"/>
+
+  <prosody rate="medium">
+    Step 4. <break time="200ms"/> Once AI copy trading launches, select an EndoTech AI strategy, allocate your funds, <break time="200ms"/> and the AI trades for you 24/7. <break time="300ms"/> You earn daily payouts automatically.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <prosody rate="medium" pitch="+5%">
+    Here's what makes this different from anything else out there.
+  </prosody>
+
+  <break time="400ms"/>
+
+  <prosody rate="95%">
+    No startup costs. <break time="200ms"/>
+    No monthly fees. <break time="200ms"/>
+    No leverage needed. <break time="200ms"/>
+    You get paid daily. <break time="200ms"/>
+    You control your funds. <break time="200ms"/>
+    And the AI does all the work.
+  </prosody>
+
+  <break time="400ms"/>
+
+  <prosody rate="medium">
+    Plus, there's an optional affiliate program where you can earn 60 percent of trading fees <break time="200ms"/> and 15 percent of profits from anyone you refer.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <prosody rate="medium" pitch="+8%">
+    This is invitation-only access. The link is below this video.
+  </prosody>
+  <break time="300ms"/>
+  <prosody rate="medium" pitch="+5%">
+    Click it, register in 30 seconds, <break time="200ms"/> and get ready for AI copy trading on Bit1 Exchange.
+  </prosody>
+
+  <break time="400ms"/>
+
+  <prosody rate="medium" pitch="+5%">
+    Don't wait <break time="200ms"/> spots are limited and the AI copy trading feature launches very soon.
+  </prosody>
+  <break time="300ms"/>
+  <prosody rate="slow" pitch="+8%">
+    Click the link now <break time="200ms"/> and start your journey to automated crypto profits.
+  </prosody>
+
+  <break time="600ms"/>
+
+  <prosody rate="slow" volume="soft">
+    Disclaimer: Past performance is not indicative of future results. Trading involves risk. Only invest what you can afford to lose.
+  </prosody>
+</speak>
