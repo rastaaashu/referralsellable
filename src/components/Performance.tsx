@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import AnimatedSection from './AnimatedSection';
 
 const checks = [
@@ -24,6 +25,20 @@ export default function Performance() {
             <strong className="text-white">20–40% monthly returns</strong>, no leverage needed, <strong className="text-white">daily payouts</strong>.
             Real results backed by EndoTech&apos;s <strong className="text-white">AI copy trading</strong> algorithms.
           </p>
+        </AnimatedSection>
+
+        {/* BTCUSDT Performance Evolution */}
+        <AnimatedSection delay={0.2} className="mb-12">
+          <div className="glass-card p-4 sm:p-6 max-w-4xl mx-auto">
+            <Image
+              src="/images/image.jpg"
+              alt="BTCUSDT Performance Evolution — AI v2.2: 180% Algo P&L, 82.4% Win Rate"
+              width={1200}
+              height={675}
+              className="w-full h-auto rounded-lg"
+              priority
+            />
+          </div>
         </AnimatedSection>
 
         {/* Checkmarks */}
