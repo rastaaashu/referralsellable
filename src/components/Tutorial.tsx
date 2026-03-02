@@ -4,6 +4,9 @@ import AnimatedSection from './AnimatedSection';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useRefLink } from '@/lib/RefLinkContext';
+import dynamic from 'next/dynamic';
+
+const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
 
 const tutorialSteps = [
   {
@@ -154,6 +157,29 @@ export default function Tutorial() {
             Follow this step-by-step guide to set up your <strong className="text-white">AI copy trading</strong> account
             on Bit1 Exchange. From registration to automated profits &mdash; everything explained.
           </p>
+        </AnimatedSection>
+
+        {/* Tutorial Video */}
+        <AnimatedSection className="mb-12">
+          <div className="video-wrapper max-w-3xl mx-auto">
+            <div className="aspect-video">
+              <ReactPlayer
+                url="/videos/tutorial.mp4"
+                width="100%"
+                height="100%"
+                controls
+                light="/thumbs/video-thumb.png"
+                playing={false}
+                config={{
+                  file: { attributes: { poster: '/thumbs/video-thumb.png' } },
+                }}
+              />
+            </div>
+            <div className="p-5">
+              <h3 className="font-bold text-white text-lg">BIT1 User Setup Instructions</h3>
+              <p className="text-gray-400 text-sm mt-1">Watch the full walkthrough before following the steps below.</p>
+            </div>
+          </div>
         </AnimatedSection>
 
         <div className="space-y-6">
