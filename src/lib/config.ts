@@ -12,7 +12,7 @@ export const MAIN_REF_LINK =
 // Add new promoters here: username → their referral link
 // Visitors go to yourdomain.com/?u=username to get their link
 export const PROMOTERS: Record<string, string> = {
-  'ProUpLnk': 'https://limitless.ibportal.io/auth/register?e=mpGMc2LZmeXQZCg9liCpU+dgxhbuMsShfLgpOK2TKak=&a=1',
+  'prouplnk': 'https://limitless.ibportal.io/auth/register?e=mpGMc2LZmeXQZCg9liCpU+dgxhbuMsShfLgpOK2TKak=&a=1',
 };
 
 // ── Support / Community Links ───────────────────────────────
