@@ -21,10 +21,6 @@ export default function Performance() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4">
             Endotech&apos;s Newest <span className="gradient-text">AI Auto-Trading System</span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            <strong className="text-white">20–40% monthly returns</strong>, no leverage needed, <strong className="text-white">daily payouts</strong>.
-            Real results backed by EndoTech&apos;s <strong className="text-white">AI copy trading</strong> algorithms.
-          </p>
         </AnimatedSection>
 
         {/* BTCUSDT Performance Evolution */}
