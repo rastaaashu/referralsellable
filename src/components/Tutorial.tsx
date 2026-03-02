@@ -164,7 +164,7 @@ export default function Tutorial() {
           <div className="video-wrapper max-w-3xl mx-auto">
             <div className="aspect-video">
               <ReactPlayer
-                url="/videos/tutorial.mp4"
+                url="/videos/tut.mp4"
                 width="100%"
                 height="100%"
                 controls
