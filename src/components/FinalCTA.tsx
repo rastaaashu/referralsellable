@@ -22,7 +22,7 @@ export default function FinalCTA() {
           <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-4">
             Invitation-only access to <strong className="text-white">Bit1 Exchange via the Limitless IB Portal</strong>.
             Join thousands of investors already earning{' '}
-            <span className="text-neon-green font-bold">20–40% monthly</span> with
+            <span className="text-neon-green font-bold">daily payouts</span> with
             EndoTech <strong className="text-white">AI copy trading</strong>.
           </p>
           <p className="text-gray-500 text-sm max-w-xl mx-auto mb-10">

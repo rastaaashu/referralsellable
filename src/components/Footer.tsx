@@ -4,7 +4,7 @@ import { SUPPORT_LINKS, EXTERNAL_LINKS } from '@/lib/config';
 import { useRefLink } from '@/lib/RefLinkContext';
 
 const stats = [
-  { value: '20–40%', label: 'Target Monthly Returns', icon: '💰' },
+  { value: 'Daily', label: 'Payout Frequency', icon: '💰' },
   { value: '1000%+', label: 'Annual Potential', icon: '📈' },
   { value: '81%', label: 'Win Rate in Volatile Markets', icon: '🎯' },
   { value: '15+', label: 'Years Proven Track Record', icon: '🏆' },
