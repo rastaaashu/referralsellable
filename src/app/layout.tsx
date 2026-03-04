@@ -2,7 +2,13 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  robots: 'nosnippet',
+  title: 'BT1 Exchange',
+  openGraph: {
+    title: 'BT1 Exchange',
+  },
+  twitter: {
+    title: 'BT1 Exchange',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
