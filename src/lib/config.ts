@@ -13,6 +13,7 @@ export const MAIN_REF_LINK =
 // Visitors go to yourdomain.com/?u=username to get their link
 export const PROMOTERS: Record<string, string> = {
   'prouplnk': 'https://limitless.ibportal.io/auth/register?e=mpGMc2LZmeXQZCg9liCpU+dgxhbuMsShfLgpOK2TKak=&a=1',
+  'raynpet': 'https://limitless.ibportal.io/auth/register?e=OmMhficDmKBQSbodqTr+5slTMpjZ6qOPqBPN9YC2iDo=&a=1',
 };
 
 // ── Support / Community Links ───────────────────────────────
