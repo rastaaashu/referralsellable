@@ -10,7 +10,17 @@
       "Bash(python3:*)",
       "Bash(gh repo:*)",
       "Bash(where gh:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(netlify:*)",
+      "WebFetch(domain:cryptogoat.xyz)",
+      "Bash(npx netlify:*)",
+      "Bash(do echo:*)",
+      "Bash(find:*)",
+      "Bash(zip:*)",
+      "WebFetch(domain:69a844a5646d60f281f22ebc--cryptogoatxyz.netlify.app)",
+      "Bash(curl:*)",
+      "Bash(NETLIFY_NEXT_PLUGIN_SKIP=true npx netlify:*)",
+      "Bash(npx:*)"
     ]
   }
 }

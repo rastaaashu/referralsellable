@@ -46,12 +46,12 @@ export const VIDEO_URLS = {
   },
   grid: [
     {
-      url: '/videos/vid.mp4',
+      url: '/videos/new.mp4',
       title: 'How to Benefit from BIT1 Exchange',
       subtitle: 'Learn how to get started and maximize your returns',
       badge: 'Guide',
       isLocal: true,
-      presentationLink: 'https://youtu.be/WaqD9y3ZqPM?si=nw2tMkhC1bUsBpmT',
+      presentationLink: 'https://youtu.be/OgrWwgXCCJM?si=ZOlAooA_1FouddGt',
     },
   ],
 };
