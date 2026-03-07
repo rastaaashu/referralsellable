@@ -17,6 +17,7 @@ export const PROMOTERS: Record<string, string> = {
   'cwealthbiz': 'https://limitless.ibportal.io/auth/register?e=oeXL8tZO9o7JnqozEYnOR5ZKxGxLY9WOY9cERlXia8Y=&a=1',
   'moneyiq': 'https://limitless.ibportal.io/auth/register?e=/pxqQwBI6p0unvLQ32d9Xi/JqXQKY9YXhSddRNsYvAg=&a=1',
   'transformation': 'https://limitless.ibportal.io/auth/register?e=Ky2eQqe7SketNwwgBrClVABkUWwViZ/p7l7MNGs2uPo=&a=1',
+  'stan': 'https://limitless.ibportal.io/auth/register?e=c2GuMEimfVYRQePn81//nrU9XIoq2ybTUNyoqhoJIug=&a=1',
 };
 
 // ── Support / Community Links ───────────────────────────────
