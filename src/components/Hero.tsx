@@ -91,7 +91,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="btn-glow text-lg sm:text-xl"
           >
-            <span>Start AI Copy Trading FREE &mdash; Invitation Only</span>
+            <span>BT1 Exchange Sign Up Here</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
