@@ -18,6 +18,7 @@ export const PROMOTERS: Record<string, string> = {
   'moneyiq': 'https://limitless.ibportal.io/auth/register?e=/pxqQwBI6p0unvLQ32d9Xi/JqXQKY9YXhSddRNsYvAg=&a=1',
   'transformation': 'https://limitless.ibportal.io/auth/register?e=Ky2eQqe7SketNwwgBrClVABkUWwViZ/p7l7MNGs2uPo=&a=1',
   'stan': 'https://limitless.ibportal.io/auth/register?e=c2GuMEimfVYRQePn81//nrU9XIoq2ybTUNyoqhoJIug=&a=1',
+  'dawn': 'https://limitless.ibportal.io/auth/register?e=qyOD/0ggKLv7ZtLVz+3cxPo9HF3GwPOQPwR+lf7RkN0=&a=1',
 };
 
 // ── Support / Community Links ───────────────────────────────
