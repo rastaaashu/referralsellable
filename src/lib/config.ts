@@ -19,6 +19,7 @@ export const PROMOTERS: Record<string, string> = {
   'transformation': 'https://limitless.ibportal.io/auth/register?e=Ky2eQqe7SketNwwgBrClVABkUWwViZ/p7l7MNGs2uPo=&a=1',
   'stan': 'https://limitless.ibportal.io/auth/register?e=c2GuMEimfVYRQePn81//nrU9XIoq2ybTUNyoqhoJIug=&a=1',
   'dawn': 'https://limitless.ibportal.io/auth/register?e=qyOD/0ggKLv7ZtLVz+3cxPo9HF3GwPOQPwR+lf7RkN0=&a=1',
+  'infomaz': 'https://limitless.ibportal.io/auth/register?e=i8GZlEFGEmmWa7B_RBixwyW3axiUTzh5kjnR4CvOwwc&a=1',
 };
 
 // ── Support / Community Links ───────────────────────────────
